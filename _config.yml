@@ -56,7 +56,7 @@ yat:
 # google_analytics: [Tracking ID]
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # You can choose a theme color
 # Default theme colors as below:
