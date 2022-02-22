@@ -3,5 +3,7 @@
 source "https://rubygems.org"
 gemspec
 group :jekyll_plugins do
+  gem 'jekyll-admin', '~> 0.11.0'
   gem "webrick", "~> 1.7"
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
